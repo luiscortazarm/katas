@@ -4,7 +4,7 @@ class Dictionary:
         self.entries = {}
 
     def newentry(self, word, definition):
-        # Add a new word-definition pair
+        # Add a new word-definition pair example
         self.entries[word] = definition
 
     def look(self, word):
