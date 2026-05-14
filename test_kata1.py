@@ -1,7 +1,7 @@
 import pytest
 from kata1 import Dictionary
 
-@pytest.fixture
+
 def test_dictionary_entries():
     d = Dictionary()
     d.newentry('Apple', 'A fruit that grows on trees')
