@@ -5,6 +5,7 @@ from kata1 import Dictionary
 def test_dictionary_entries():
     d = Dictionary()
     d.newentry('Apple', 'A fruit that grows on trees')
+    d.newentry('Potato', 'A vegetable that grows in the ground')
 
     # Added word can be recovered
     assert d.look('Apple') == 'A fruit that grows on trees'
