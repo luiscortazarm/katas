@@ -9,7 +9,7 @@ def test_dictionary_entries():
 
     # Added word can be recovered
     assert d.look('Apple') == 'A fruit that grows on trees'
-    assert d.look('Potatoe')== 'A vegetable that grows in the ground'
+    assert d.look('Potato')== 'A vegetable that grows in the ground'
 
     # Inexistent word returns a warning
     assert d.look('Banana') == "Can't find entry for Banana"
