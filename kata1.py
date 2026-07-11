@@ -14,7 +14,7 @@ class Dictionary:
 # Example Usage:
 d = Dictionary()
 d.newentry('Apple', 'A fruit that grows on trees')
-d.newentry('Potato', 'A vegetable that grows in the ground')
+d.newentry('Potatoe', 'A vegetable that grows in the ground')
 print(d.look('Apple'))   # A fruit that grows on trees
 print(d.look('Banana'))  # Can't find entry for Banana
 print(d.look('Potato'))  #A vegetable that grows in the ground
